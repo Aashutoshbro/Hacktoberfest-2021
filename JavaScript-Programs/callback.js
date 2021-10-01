@@ -5,8 +5,6 @@ const modifyArray = (arr, callback) => {
   callback();
 };
 
-const arr = [1, 2, 3, 4, 5];
+const arr = [ 1, 2, 3, 4, 5 ];
 
-modifyArray(arr, () => {
-  console.log("Array has been modified", arr);
-});
+modifyArray(arr, () => { console.log("Array has been modified", arr); });
